@@ -22,7 +22,7 @@ def main() -> None:  # sourcery skip: move-assign-in-block, use-join
             aux += raw_input[i]
     value = int(aux)
 
-    print(value)
+    print(f"value: {value}")
 
 #! Main
 if __name__ == "__main__":
